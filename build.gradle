@@ -1,0 +1,62 @@
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+
+group 'co.com.PruebaAppGate'
+version '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+sourceCompatibility = 1.8
+
+
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.2.1")
+    }
+}
+
+ext{
+    serenityVersion = '2.0.70'
+    serenityCucumberVersion = '1.9.45'
+}
+
+dependencies {
+
+
+    implementation group: 'org.assertj', name: 'assertj-core', version: '3.15.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha0'
+
+    implementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:$rootProject.ext.serenityVersion"
+    testCompile group: 'com.microsoft.sqlserver', name: 'sqljdbc4', version: '4.0'   
+    //implementation group: 'com.microsoft.sqlserver.jdbc', name: 'sqljdbc', version: '4.0'
+   
+    //implementation group: 'sql.server.jdbc.driver', name: 'sqljdbc', version: '4.0'
+
+
+
+
+
+}
+gradle.startParameter.continueOnFailure = true
+
+
