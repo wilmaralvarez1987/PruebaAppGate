@@ -1,98 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170fd991-2cba-4531-9bc6-6fc77addaa46" name="Default Changelist" comment="prueba app gate">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.0/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.0/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/exceptions/ConexionExcepcions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/exceptions/ResultadoNoEncontrado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/integration/SqlQueries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/interactions/ConexionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/interactions/SqlServerConexionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/questions/VerificarBusquedaEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/questions/VerificarCantidadEmpleados.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/questions/VerificarEmpleadoEliminado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/questions/VerificarEmpleadoExistente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/questions/VerificarTodosEmpleados.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/ActualizarEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/BuscarEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/ConsultarSalmen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/EliminarEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/InsertarEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/tasks/ListarEmpleados.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/utils/PropertiesManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/co/com/PruebaAppGate/utils/QueryManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/SqlQueries.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/ActualizarEmpleadoRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/BuscarEmpleadoRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/ConsultarSalMenRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/CrearEmpleadosRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/EliminarEmpleadoRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/runners/ListarEmpleadosRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/ActualizarEmpleadoStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/BuscarEmpleadoStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/ComunesStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/ConsultarSalMenStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/CrearUsuariosStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/EliminarEmpleadoStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/co/com/PruebaAppGate/stepdefinitions/ListarEmpleadosStepDefinitions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/actualizar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/buscar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/consultar_sal_men.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/crear_empleados.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/eliminar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/features/listar_empleados.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlserver-bd.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/exceptions/ConexionExcepcions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/exceptions/ResultadoNoEncontrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/integration/SqlQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/interactions/ConexionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/interactions/SqlServerConexionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/questions/VerificarBusquedaEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/questions/VerificarCantidadEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/questions/VerificarEmpleadoEliminado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/questions/VerificarEmpleadoExistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/questions/VerificarTodosEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/ActualizarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/BuscarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/ConsultarSalmen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/EliminarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/InsertarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/tasks/ListarEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/utils/PropertiesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/PruebaAppGate/utils/QueryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlQueries.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/ActualizarEmpleadoRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/BuscarEmpleadoRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/ConsultarSalMenRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/CrearEmpleadosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/EliminarEmpleadoRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/runners/ListarEmpleadosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/ActualizarEmpleadoStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/BuscarEmpleadoStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/ComunesStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/ConsultarSalMenStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/CrearUsuariosStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/EliminarEmpleadoStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/PruebaAppGate/stepdefinitions/ListarEmpleadosStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/actualizar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/buscar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/consultar_sal_men.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/crear_empleados.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/eliminar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/listar_empleados.feature" afterDir="false" />
-    </list>
+    <list default="true" id="170fd991-2cba-4531-9bc6-6fc77addaa46" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -114,6 +23,7 @@
     <leaf />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -196,6 +106,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613938845167</updated>
     </task>
+    <task id="LOCAL-00001" summary="prueba app gate">
+      <created>1613940665589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613940665589</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
