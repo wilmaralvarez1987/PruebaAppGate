@@ -14,7 +14,7 @@ pipeline{
 	stages{
 		stage('Obtener fuentes ') {
 		 	steps{
-		 		git url: 'https://vostpmde37.proteccion.com.co:10443/Tester_Choucair/pruebasAceptacionLaboratorioEmpresas.git'
+		 		git url: 'https://github.com/wilmaralvarez1987/PruebaAppGate.git'
 			}
 		}
 
