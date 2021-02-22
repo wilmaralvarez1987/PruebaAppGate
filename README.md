@@ -29,6 +29,8 @@ y también produce informes de pruebas valiosos y significativos que no solo inf
 *ScreenPlay
 *Cucumber
 
+NOTA: TODO SE AUTOMATIZO CON LA BASE DE DATOS QUE SE CREO LOCAL
+
 *Pasos para poder ejecutar el proyecto:
 1. Descargar el pryecto
 2. crear base de datos local 
@@ -88,6 +90,14 @@ este archivo contiene los pasos que se ejecutaran en el pipeline que se crea en 
 3. se crean variable de DRunner la cual debe llevar el runner que se va a ejecutar (este nombre se debe agregar en el pipeline del jenkins ) 
 4. se crea variable de WORKSPACE la cual debe de llevar el nombre del servidor dodne se almacenara las evidencias
 5. recordar que para salir correos desde jenkins debes configuararlo
+
+*Entregables:
+Escenarios escritos en lenguaje Gherkin
+Proyecto de automatizacion de escenarios
+archivo README
+Jenkinsfile
+Ejercicios de programacion
+Notificacion en Jenkins
 
 *Comandos especificos para ejecución
 gradle test --tests nombre del runner a ejecutar  aggregate
