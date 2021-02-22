@@ -92,12 +92,12 @@ este archivo contiene los pasos que se ejecutaran en el pipeline que se crea en 
 5. recordar que para salir correos desde jenkins debes configuararlo
 
 *Entregables:
-Escenarios escritos en lenguaje Gherkin
-Proyecto de automatizacion de escenarios
-archivo README
-Jenkinsfile
-Ejercicios de programacion
-Notificacion en Jenkins
+1.Escenarios escritos en lenguaje Gherkin
+2.Proyecto de automatizacion de escenarios
+3.archivo README
+4.Jenkinsfile
+5.Ejercicios de programacion
+6.Notificacion en Jenkins
 
 *Comandos especificos para ejecución
 gradle test --tests nombre del runner a ejecutar  aggregate
